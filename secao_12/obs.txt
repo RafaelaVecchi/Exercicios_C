@@ -1,0 +1,11 @@
+Tanto o main() do 2.c e 3.c estão corretos e atendem as boas práticas de programação,
+
+no entanto, o 2.c é mais genérico e usa um loop para ler e imprimir os dados dos vetores,
+podendo ser mais eficiente se você precisar trabalhar com um grande número de vetores(componentes do struct),
+pois você pode facilmente ajustar o número de vetores alterando o valor da variável numero_vetores.
+
+já o 3.c, lida com cada vetor individualmente, podendo ser mais simples e fácil de entender se você
+estiver apenas trabalhando com um pequeno número de vetores. Ele também permite que você trate cada
+vetor de maneira única, se necessário.
+
+portanto, opte por se basear em um código genérico, o 2.c.
